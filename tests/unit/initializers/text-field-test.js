@@ -1,5 +1,6 @@
 import Ember from 'ember';
-import TextFieldInitializer from 'ga-wdi-boston.ember-auth/initializers/text-field';
+import TextFieldInitializer from 'client_beer_app/initializers/text-field';
+
 import { module, test } from 'qunit';
 
 let application;

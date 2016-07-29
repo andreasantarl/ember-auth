@@ -1,7 +1,7 @@
 {
-  "name": "ga-wdi-boston.ember-auth",
+  "name": "client_beer_app",
   "version": "0.0.0",
-  "description": "Small description for ga-wdi-boston.ember-auth goes here",
+  "description": "Client beer app",
   "private": true,
   "directories": {
     "doc": "doc",
