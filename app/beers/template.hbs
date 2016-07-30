@@ -1,0 +1,9 @@
+<!-- {{#link-to 'beer' class='btn btn-lg'}}Add a new beer{{/link-to}} -->
+
+<!-- {{#each model as |beer|}}
+  {{beer-app/card beer=beer}}
+{{/each}} -->
+
+<!-- {{beer-app/new submit='create'}} -->
+
+{{beer-app/new beers=model submit="create"}}

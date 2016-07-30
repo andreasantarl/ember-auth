@@ -1,0 +1,52 @@
+<form class="profile-form center-block" action="#" enctype="multipart/form-data">
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="userName">User Name</label>
+      <input type="text" class="form-control" name="profile[username]" id="userName" placeholder="User name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control"  name="profile[first_name]" id="firstName" placeholder="First Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control"  name="profile[last_name]" id="lastName" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="biography">Biography</label>
+      <textarea class="form-control" id="biography" rows="3" name="profile[biography]"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="preferences">Beer Preference</label>
+      <textarea class="form-control" id="preference" rows="3" name="profile[preferences]"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="favorites">Favorite Beers</label>
+      <textarea class="form-control" id="favorites" rows="3" name="profile[favorites]"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label for="picture">Upload a profile picture</label>
+      <input type="file" name="profile[photo]" class="form-control-file" id="photo" aria-describedby="fileHelp">
+    </div>
+  </div>
+  <div class="checkbox row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <label>
+        <input type="checkbox" name="profile[make_private]" value="false"> Make this profile private?
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
