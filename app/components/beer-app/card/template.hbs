@@ -1,15 +1,23 @@
-<!-- {{#link-to 'add-beer' beer}}
-  <h2>{{beer.beer_name}}</h2>
-{{/link-to}}
+<!-- {{#link-to 'beers' beers}}
+  <h2>{{beers.beer_name}}</h2>
+{{/link-to}} -->
 
-<button class="btn btn-xs btn-danger"
+<!-- {{#each model as |beer|}}
+  {{beer-app/card beer=beer delete="delete" edit="edit"}}
+{{/each}} -->
+
+{{#each beers as |beer|}}
+  <h2>{{beer.beer_name}}</h2>
+{{/each}}
+
+<!-- <button class="btn btn-xs btn-danger"
         {{action 'delete'}}>
         Delete
 </button>
 
 
-
-<! <button class="btn btn-xs btn-primary"
+ <button class="btn btn-xs btn-primary"
         {{action 'edit'}}>
         Edit
-</button> -->
+</button>  -->
+Hello
